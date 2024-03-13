@@ -517,7 +517,8 @@ module Ota
       'academic policy',
       'fair credit reporting act rights',
       'gtld',
-      'inventory policies'
+      'inventory policies',
+      'responsible wagering statement'
     ],
     'General Conditions of Sale': [
       'return',
