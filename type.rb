@@ -235,7 +235,8 @@ module Ota
       'participation agreement',
       'consumer agreement',
       'contributor agreement',
-      'customer policy'
+      'customer policy',
+      '"HERE WeGo, HERE application and HERE Maps Service Terms "'
     ],
     'Privacy Policy': [
       'user rights',
@@ -519,7 +520,17 @@ module Ota
       'fair credit reporting act rights',
       'gtld',
       'inventory policies',
-      'responsible wagering statement'
+      'responsible wagering statement',
+      'page footer',
+      'main page',
+      'General University Policies',
+      'Profile Actions Policy',
+      'University Policies'
+    ],
+    'Spam': [
+      'Super Kamagra Oral Jelly',
+      'Gurgaon Escort',
+      'убличная оферта'
     ],
     'General Conditions of Sale': [
       'return',
@@ -541,7 +552,12 @@ module Ota
       'políticas'
     ],
     'Frequently Asked Questions': [
-      'faq'
+      'faq',
+      'What services does Standard Notes use for daily operation?',
+      'Administrivia / TV Tropes Customs',
+      'Pawelmar',
+      'Credit Card Exclusions and Limitations',
+
     ],
     'Merged': [
       'merged'

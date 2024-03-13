@@ -12,5 +12,5 @@ ToS;DR has forked OTA's terms types in order to add custom types that are not co
 
 To run the script from the console: `ruby ./create_name_dictionary.rb`
 
-You can also run ` node filter.js > filtered.csv` to filter out the troublesome docs
+You can also run `node filter.js > filtered.csv` to filter out the troublesome docs
 
