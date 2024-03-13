@@ -8,7 +8,7 @@ The ToS;DR terms types are a fork of OTA's official terms types. Documentation f
 
 ToS;DR has forked OTA's terms types in order to add custom types that are not covered by OTA's official terms types. An example would be **Corporate Social Responsibility**, or CSR. Many documents in Phoenix concern CSR, but OTA did not have an official terms type to classify them. Thus, we added the CSR terms type to the ToS;DR fork of OTA's official terms types.
 
-**Requirements**: Ruby installed in the shell, a CSV dump of Phoenix documents.
+**Requirements**: Ruby installed in the shell, a CSV dump of Phoenix documents named `documents.csv`.
 
 To run the script from the console: `ruby ./create_name_dictionary.rb`
 
