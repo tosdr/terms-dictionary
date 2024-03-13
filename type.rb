@@ -47,7 +47,8 @@ module Ota
     'Safety Guidelines',
     'Telephone Communication Guidelines',
     'Records Keeping Policy',
-    'Service Level Agreement'
+    'Service Level Agreement',
+    'Legal Information'
   ].map(&:downcase)
 
   TERMS_TYPE_KEY_WORDS = {
