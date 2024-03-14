@@ -20,16 +20,22 @@ File.delete(file_path) if File.exist?(file_path)
 CSV.open("name_dictionary.csv", "w", write_headers: true,
   headers: %w[tosdr_document_name ota_terms_type]) do |csv|
   TOSDR_DOCUMENT_NAMES.each do |name|
+    # puts 'DOCUMENT: ' + name
     term_match = false
     ota_term_type = 'no match'
-    TERMS_TYPE_KEY_WORDS.each do |key, value|
-      value.each do |v|
+    TERMS_TYPES.each do |key|
+      values = TERMS_TYPE_KEY_WORDS[key.to_sym] || []
+      # puts 'LOOP: ' + key.to_s + ' -> ' + values.length.to_s
+      values.each do |v|
+        # puts 'TRY: ' + key.to_s + ' -> ' + v.to_s + ' on ' + name
         matches = name.scan(/#{v}/)
         term_match = matches.length.positive?
+        # puts 'term_match: ' + term_match.to_s
         ota_term_type = key if term_match
-        next if term_match
+        # puts 'MATCH: ' + v if term_match
+        break if term_match
       end
-      next if term_match
+      break if term_match
     end
     csv << [name, ota_term_type]
   end

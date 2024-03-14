@@ -1,16 +1,20 @@
 module Ota
   TERMS_TYPES = [
-    'Terms of Service',
+    'Acceptable Use Policy',
+    'Developer Terms',
+    'Trackers Policy',
+    'Legal Information',
+    'Copyright Claims Policy',
+    'Vulnerability Disclosure Policy',
     'Privacy Policy',
+    'Community Guidelines',
+    'Terms of Service',
     'Imprint',
     'Trackers Policy',
     'Developer Terms',
-    'Community Guidelines',
     'Deceased Users',
-    'Acceptable Use Policy',
     'Restricted Use Policy',
     'Commercial Terms',
-    'Copyright Claims Policy',
     'Law Enforcement Guidelines',
     'Human Rights Policy',
     'In-App Purchases Policy',
@@ -22,7 +26,6 @@ module Ota
     'Closed Captioning Policy',
     'Seller Warranty',
     'Single Sign-On Policy',
-    'Vulnerability Disclosure Policy',
     'Live Policy',
     'Complaints Policy',
     'General Conditions of Sale',
@@ -48,8 +51,10 @@ module Ota
     'Telephone Communication Guidelines',
     'Records Keeping Policy',
     'Service Level Agreement',
-    'Legal Information'
-  ].map(&:downcase)
+    'Spam',
+    'Law Enforcement',
+    'Other'
+  ]
 
   TERMS_TYPE_KEY_WORDS = {
     'Service Level Agreement': [
@@ -522,14 +527,15 @@ module Ota
       'inventory policies',
       'responsible wagering statement',
       'page footer',
-      'main page',
-      'General University Policies',
-      'Profile Actions Policy',
-      'University Policies'
+      'main page'
+    ],
+    'Policy': [
+      'policy',
+      'policies'
     ],
     'Spam': [
-      'Super Kamagra Oral Jelly',
-      'Gurgaon Escort',
+      'super kamagra oral jelly',
+      'gurgaon escort',
       'убличная оферта'
     ],
     'General Conditions of Sale': [
