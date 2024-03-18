@@ -61,6 +61,25 @@ module Ota
       'service level',
       'service-level'
     ],
+    'General Conditions of Sale': [
+      'return',
+      'returns',
+      'refund',
+      'refunds',
+      'cancellation',
+      'shipping',
+      'delivery',
+      'conditions of sale',
+      'warranty',
+      'warranties',
+      'conditions générales de vente',
+      'leveringsvoorwaarden',
+      'money back guarantee policy',
+      'billing',
+      'shopping services & policies',
+      'bill',
+      'políticas'
+    ],
     'Records Keeping Policy': [
       '2257',
       'record-keeping',
@@ -536,25 +555,6 @@ module Ota
       'super kamagra oral jelly',
       'gurgaon escort',
       'убличная оферта'
-    ],
-    'General Conditions of Sale': [
-      'return',
-      'returns',
-      'refund',
-      'refunds',
-      'cancellation',
-      'shipping',
-      'delivery',
-      'conditions of sale',
-      'warranty',
-      'warranties',
-      'conditions générales de vente',
-      'leveringsvoorwaarden',
-      'money back guarantee policy',
-      'billing',
-      'shopping services & policies',
-      'bill',
-      'políticas'
     ],
     'Frequently Asked Questions': [
       'faq',
