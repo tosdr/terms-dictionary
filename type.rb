@@ -79,7 +79,8 @@ module Ota
       'billing',
       'shopping services & policies',
       'bill',
-      'políticas'
+      'políticas',
+      'cgv'
     ],
     'Records Keeping Policy': [
       '2257',
