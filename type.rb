@@ -52,6 +52,7 @@ module Ota
     'Records Keeping Policy',
     'Service Level Agreement',
     'Spam',
+    'Policy',
     'Other'
   ]
 
