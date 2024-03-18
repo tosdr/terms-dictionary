@@ -1,16 +1,21 @@
 module Ota
   TERMS_TYPES = [
-    'Terms of Service',
+    'Acceptable Use Policy',
+    'Developer Terms',
+    'Trackers Policy',
+    'Legal Information',
+    'Copyright Claims Policy',
+    'Vulnerability Disclosure Policy',
     'Privacy Policy',
+    'Community Guidelines',
+    'General Conditions of Sale',
+    'Terms of Service',
     'Imprint',
     'Trackers Policy',
     'Developer Terms',
-    'Community Guidelines',
     'Deceased Users',
-    'Acceptable Use Policy',
     'Restricted Use Policy',
     'Commercial Terms',
-    'Copyright Claims Policy',
     'Law Enforcement Guidelines',
     'Human Rights Policy',
     'In-App Purchases Policy',
@@ -22,10 +27,8 @@ module Ota
     'Closed Captioning Policy',
     'Seller Warranty',
     'Single Sign-On Policy',
-    'Vulnerability Disclosure Policy',
     'Live Policy',
     'Complaints Policy',
-    'General Conditions of Sale',
     'Marketplace Buyers Conditions',
     'Marketplace Sellers Conditions',
     'Ranking Parameters Description',
@@ -48,14 +51,34 @@ module Ota
     'Telephone Communication Guidelines',
     'Records Keeping Policy',
     'Service Level Agreement',
-    'Legal Information'
-  ].map(&:downcase)
+    'Spam',
+    'Other'
+  ]
 
   TERMS_TYPE_KEY_WORDS = {
     'Service Level Agreement': [
       'sla',
       'service level',
       'service-level'
+    ],
+    'General Conditions of Sale': [
+      'return',
+      'returns',
+      'refund',
+      'refunds',
+      'cancellation',
+      'shipping',
+      'delivery',
+      'conditions of sale',
+      'warranty',
+      'warranties',
+      'conditions générales de vente',
+      'leveringsvoorwaarden',
+      'money back guarantee policy',
+      'billing',
+      'shopping services & policies',
+      'bill',
+      'políticas'
     ],
     'Records Keeping Policy': [
       '2257',
@@ -235,7 +258,8 @@ module Ota
       'participation agreement',
       'consumer agreement',
       'contributor agreement',
-      'customer policy'
+      'customer policy',
+      '"HERE WeGo, HERE application and HERE Maps Service Terms "'
     ],
     'Privacy Policy': [
       'user rights',
@@ -458,7 +482,7 @@ module Ota
       'take down',
       'review guidelines'
     ],
-    'Law Enforcement': [
+    'Law Enforcement Guidelines': [
       'law enforcement',
       'subpoena and warrant policy',
       'arbitration agreement',
@@ -519,29 +543,26 @@ module Ota
       'fair credit reporting act rights',
       'gtld',
       'inventory policies',
-      'responsible wagering statement'
+      'responsible wagering statement',
+      'page footer',
+      'main page'
     ],
-    'General Conditions of Sale': [
-      'return',
-      'returns',
-      'refund',
-      'refunds',
-      'cancellation',
-      'shipping',
-      'delivery',
-      'conditions of sale',
-      'warranty',
-      'warranties',
-      'conditions générales de vente',
-      'leveringsvoorwaarden',
-      'money back guarantee policy',
-      'billing',
-      'shopping services & policies',
-      'bill',
-      'políticas'
+    'Policy': [
+      'policy',
+      'policies'
+    ],
+    'Spam': [
+      'super kamagra oral jelly',
+      'gurgaon escort',
+      'убличная оферта'
     ],
     'Frequently Asked Questions': [
-      'faq'
+      'faq',
+      'What services does Standard Notes use for daily operation?',
+      'Administrivia / TV Tropes Customs',
+      'Pawelmar',
+      'Credit Card Exclusions and Limitations',
+
     ],
     'Merged': [
       'merged'
