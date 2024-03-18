@@ -52,7 +52,6 @@ module Ota
     'Records Keeping Policy',
     'Service Level Agreement',
     'Spam',
-    'Law Enforcement',
     'Other'
   ]
 
@@ -464,7 +463,7 @@ module Ota
       'take down',
       'review guidelines'
     ],
-    'Law Enforcement': [
+    'Law Enforcement Guidelines': [
       'law enforcement',
       'subpoena and warrant policy',
       'arbitration agreement',
