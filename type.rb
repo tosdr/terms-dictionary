@@ -37,7 +37,6 @@ module Ota
     'Business Privacy Policy',
     'Frequently Asked Questions',
     'Merged',
-    'Charter',
     'Review Guidelines',
     'Human Rights Policy',
     'Data Controller Agreement',
