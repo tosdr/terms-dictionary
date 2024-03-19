@@ -7,7 +7,7 @@ module Ota
     'Copyright Claims Policy',
     'Vulnerability Disclosure Policy',
     'Privacy Policy',
-    'Policy',
+    # 'Policy',
     'Community Guidelines',
     'General Conditions of Sale',
     'Terms of Service',
