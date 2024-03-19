@@ -53,14 +53,10 @@ module Ota
     'Policy',
     'Other',
     'About',
-    'Miscellaneous Agreement',
-    'General Terms of Business'
+    'Miscellaneous Agreement'
   ]
 
   TERMS_TYPE_KEY_WORDS = {
-    'General Terms of Business': [
-      'agb'
-    ],
     'Service Level Agreement': [
       'sla',
       'service level',
@@ -85,7 +81,8 @@ module Ota
       'bill',
       'políticas',
       'cgv',
-      'سياسة الاسترجاع'
+      'سياسة الاسترجاع',
+      'agb'
     ],
     'Records Keeping Policy': [
       '2257',
