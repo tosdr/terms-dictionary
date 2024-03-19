@@ -54,10 +54,16 @@ module Ota
     'Service Level Agreement',
     'Spam',
     'Policy',
-    'Other'
+    'Other',
+    'About',
+    'Miscellaneous Agreement',
+    'General Terms of Business'
   ]
 
   TERMS_TYPE_KEY_WORDS = {
+    'General Terms of Business': [
+      'agb'
+    ],
     'Service Level Agreement': [
       'sla',
       'service level',
@@ -81,7 +87,8 @@ module Ota
       'shopping services & policies',
       'bill',
       'políticas',
-      'cgv'
+      'cgv',
+      'سياسة الاسترجاع'
     ],
     'Records Keeping Policy': [
       '2257',
@@ -173,6 +180,7 @@ module Ota
       'end-user licence agreement',
       'all policies',
       'terms of use',
+      'warunki korzystania',
       'conditions of use',
       'consumer terms of sale',
       'terms of sale',
@@ -226,6 +234,9 @@ module Ota
       'conditions for use',
       'allgemeine geschäfts­bedingungen',
       'usage agreement',
+      'соглашение об использовании',
+      '飞书用户服务协议',
+      'الشروط والأحكام',
       'use policy',
       'allgemeine geschã¤ftsbedingungen',
       'términos de servicio',
@@ -262,7 +273,9 @@ module Ota
       'consumer agreement',
       'contributor agreement',
       'customer policy',
-      '"HERE WeGo, HERE application and HERE Maps Service Terms "'
+      '"HERE WeGo, HERE application and HERE Maps Service Terms "',
+      'cgu',
+      'palveluiden yleiset sopimusehdot'
     ],
     'Privacy Policy': [
       'user rights',
@@ -405,7 +418,10 @@ module Ota
       'confidentiality',
       'data subjects',
       'encryption',
-      'right of withdrawal'
+      'right of withdrawal',
+      'collect',
+      'protect',
+      'share your information'
     ],
     'Vulnerability Disclosure Policy': [
       'vulnerability disclosure',
@@ -520,6 +536,7 @@ module Ota
       'legal information',
       'legal info',
       'legal notices',
+      'rechtliche hinweise',
       'legal',
       'liability disclaimer',
       'mentions légales',
@@ -547,8 +564,7 @@ module Ota
       'gtld',
       'inventory policies',
       'responsible wagering statement',
-      'page footer',
-      'main page'
+      'notice'
     ],
     'Policy': [
       'policy',
@@ -565,14 +581,18 @@ module Ota
       'json',
       'escort',
       'healthexcite',
-      'icons/'
+      'icons/',
+      'optimum-wellness',
+      'jendralpoker',
+      'can i buy postage with bitcoin?'
     ],
     'Frequently Asked Questions': [
       'faq',
       'What services does Standard Notes use for daily operation?',
       'Administrivia / TV Tropes Customs',
       'Pawelmar',
-      'Credit Card Exclusions and Limitations'
+      'Credit Card Exclusions and Limitations',
+      'f.a.q'
     ],
     'Merged': [
       'merged'
@@ -607,10 +627,17 @@ module Ota
       'artist: avoid posting',
       'the fine print',
       'cc',
-      'e.g해안선'
+      'e.g해안선',
+      'page footer',
+      'main page',
+      'pawelmar',
+      'data-indexatie'
     ],
     'About': [
       'about'
+    ],
+    'Miscellaneous Agreement': [
+      'agreement'
     ]
   }
 end
