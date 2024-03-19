@@ -7,6 +7,7 @@ module Ota
     'Copyright Claims Policy',
     'Vulnerability Disclosure Policy',
     'Privacy Policy',
+    'Policy',
     'Community Guidelines',
     'General Conditions of Sale',
     'Terms of Service',
@@ -555,16 +556,23 @@ module Ota
     ],
     'Spam': [
       'super kamagra oral jelly',
-      'gurgaon escort',
-      'убличная оферта'
+      'убличная оферта',
+      'halloween pumpkin bomber jacket',
+      'avaforce 100 mg',
+      'malegra 100 mg',
+      'test',
+      'mg',
+      'json',
+      'escort',
+      'healthexcite',
+      'icons/'
     ],
     'Frequently Asked Questions': [
       'faq',
       'What services does Standard Notes use for daily operation?',
       'Administrivia / TV Tropes Customs',
       'Pawelmar',
-      'Credit Card Exclusions and Limitations',
-
+      'Credit Card Exclusions and Limitations'
     ],
     'Merged': [
       'merged'
@@ -575,7 +583,34 @@ module Ota
       'chartre',
       'chatre',
       'charte',
-      'impressum'
+      'impressum',
+      'imprint',
+      'binder2016/',
+      'index.php',
+      'samuel man barfield iii',
+      '"10711 starit ln., dallas, texas 75229"',
+      'tobi1.dk',
+      'troy',
+      'company blog',
+      'here wi-fi opt-out',
+      '"planio, redmine, and open source"',
+      'automotive navigation from here',
+      '"here wego, here application and here maps"',
+      'example',
+      'project goals',
+      '"administrivia / the fic may be yours, but the trope page is ours"',
+      'indexer',
+      'newsmixer',
+      'content ratings',
+      'student registration document',
+      'licence',
+      'artist: avoid posting',
+      'the fine print',
+      'cc',
+      'e.g해안선'
+    ],
+    'About': [
+      'about'
     ]
   }
 end
