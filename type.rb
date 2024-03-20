@@ -51,9 +51,9 @@ module Ota
     'Service Level Agreement',
     'Spam',
     'Policy',
-    'Other',
     'About',
-    'Miscellaneous Agreement'
+    'Miscellaneous Agreement',
+    'Other'
   ]
 
   TERMS_TYPE_KEY_WORDS = {
@@ -82,7 +82,9 @@ module Ota
       'políticas',
       'cgv',
       'سياسة الاسترجاع',
-      'agb'
+      'agb',
+      'money back stink-free guarantee',
+      'versandinformationen'
     ],
     'Records Keeping Policy': [
       '2257',
@@ -128,7 +130,9 @@ module Ota
       'fraud',
       '2fa',
       'anti-piracy',
-      'parental guide'
+      'parental guide',
+      'piracy',
+      'abuse'
     ],
     'Corporate Social Responsibility': [
       'educational rights',
@@ -148,7 +152,8 @@ module Ota
       'accessibility',
       'mozilla workplace transition policy guidelines',
       'whistleblower',
-      'ada'
+      'ada',
+      'foreign corrupt practices act'
     ],
     'Data Controller Agreement': [
       'data controller'
@@ -248,7 +253,6 @@ module Ota
       'content deletion policy',
       'basic rules',
       'rgpd',
-      'use restrictions policy',
       'usage rules',
       'membership contract',
       'contracte de serveis',
@@ -269,7 +273,14 @@ module Ota
       'customer policy',
       '"HERE WeGo, HERE application and HERE Maps Service Terms "',
       'cgu',
-      'palveluiden yleiset sopimusehdot'
+      'palveluiden yleiset sopimusehdot',
+      'client contract',
+      'regras',
+      'droits et obligations',
+      'allgemeine nutzungsbestimmungen',
+      'algemene gebruiksvoorwaarden',
+      '少数派用户协议',
+      'regeln und bedingungen'
     ],
     'Privacy Policy': [
       'user rights',
@@ -415,7 +426,13 @@ module Ota
       'right of withdrawal',
       'collect',
       'protect',
-      'share your information'
+      'share your information',
+      'what services does standard notes use for daily operation?',
+      'acordo de processamento de dados',
+      '개인정보 처리방침',
+      'daten­schutz­erklärung',
+      'personvernserklæring',
+      'سياسة الخصوصية'
     ],
     'Vulnerability Disclosure Policy': [
       'vulnerability disclosure',
@@ -502,14 +519,16 @@ module Ota
       'grand jury subpoena for signal user data, eastern district of virginia',
       'dispute resolution policy',
       'subpoena',
-      'arbitration'
+      'arbitration',
+      'disputes resolution'
     ],
     'Acceptable Use Policy': [
       'acceptable use',
       'acceptable',
       'fair usage',
       'fair use',
-      'bandwidth policy'
+      'bandwidth policy',
+      'use restrictions'
     ],
     'Developer Terms': ['api', 'developer'],
     'Copyright Claims Policy': [
@@ -558,7 +577,9 @@ module Ota
       'gtld',
       'inventory policies',
       'responsible wagering statement',
-      'notice'
+      'notice',
+      'investment contract',
+      'rechtliches'
     ],
     'Policy': [
       'policy',
@@ -625,7 +646,24 @@ module Ota
       'page footer',
       'main page',
       'pawelmar',
-      'data-indexatie'
+      'data-indexatie',
+      'administrivia / tv tropes customs',
+      'credit card exclusions and limitations',
+      'quotas',
+      'warning',
+      'star',
+      'job finding',
+      'social contract',
+      'freedom of information',
+      'o udruženju građana',
+      'opt-out choices',
+      'このサイトは？',
+      'preuve de consentement',
+      'reproduction rights',
+      'sailpoint platinum plus support and maintenance supplement',
+      'payment methods',
+      'consent form',
+      ''
     ],
     'About': [
       'about'
